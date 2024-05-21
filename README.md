@@ -4,7 +4,7 @@ This microservice will allow a user to download an image. My plan is to implemen
 
 **How to Request Data**
 
-This is currently designed to be run locally. Run the program locally by downloading all of the zip file, extracting its contents, and opening the file in VS Code or a similar program. Once there, run the following commands:
+This is currently designed to be run locally. Run the program locally by downloading all of the zip file, extracting its contents, and opening the file in VS Code or a similar program. Once there, run the following commands in a terminal:
 ```
 cd server
 ```
@@ -15,7 +15,7 @@ npm i
 node index
 ```
 
-Once there, check localhost:3000 to see the download button. Click on the download button to download the image specified in the code.
+Once there, drag 'index.html' into a browser window to see the download button. Click on the download button to download the image specified in the code.
 
 
 **Example request**
