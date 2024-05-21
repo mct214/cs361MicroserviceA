@@ -20,7 +20,21 @@ Once there, drag 'index.html' into a browser window to see the download button. 
 
 **Example request**
 
-[example]
+As an example, the following is how a user could download an image using this microservice.
+
+In the terminal:
+```
+cd server
+```
+```
+npm i
+```
+```
+node index
+```
+User drags index.html into browser window and selects "Download an image of Bulbasaur".
+
+A person could implement this microservice into their code by ensuring that node.js is properly installed (including the node_modules folder and the proper package json files) and pasting the 'index.js' file into their code. So long as the html request is properly formatted, they should be able to route to an image of any name using the microservice.
 
 **How to Receive Data**
 
@@ -28,4 +42,5 @@ The file specified will be downloaded to the device being used to view the progr
 
 **UML Sequence Diagram**
 
-[diagram]
+![image](https://github.com/mct214/cs361MicroserviceA/assets/122847004/dd172c3a-4cd8-4dd8-adac-8e0b8946297c)
+
